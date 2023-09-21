@@ -1,0 +1,2572 @@
+[
+  {
+    "textbook": [
+      {
+        "id": "b3ae2f52-224c-4234-ba98-d8eb8f492184",
+        "title": "Mathematics Textbook",
+        "subject": "Mathematics",
+        "grade_level": 42773,
+        "publication_year": "2023-09-20T09:19:06.104Z",
+        "publisher": "Publisher A",
+        "created_at": "2023-09-20T22:43:11.447Z",
+        "updated_at": "2023-09-20T21:48:45.199Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e22616d4-3eca-49a4-b394-378f4b9e1c4a",
+        "title": "Science Textbook",
+        "subject": "Science",
+        "grade_level": 35279,
+        "publication_year": "2023-09-21T02:56:12.754Z",
+        "publisher": "Publisher B",
+        "created_at": "2023-09-21T00:33:22.890Z",
+        "updated_at": "2023-09-20T22:41:32.099Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "61277266-88bc-4bb7-a49d-3410755f2d28",
+        "title": "History Textbook",
+        "subject": "History",
+        "grade_level": 75197,
+        "publication_year": "2023-09-20T18:51:35.105Z",
+        "publisher": "Publisher C",
+        "created_at": "2023-09-21T06:15:00.894Z",
+        "updated_at": "2023-09-21T08:02:35.575Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "89523eb9-c710-4f0e-b703-1955a15ebc98",
+        "title": "English Textbook",
+        "subject": "English",
+        "grade_level": 38183,
+        "publication_year": "2023-09-21T00:27:02.331Z",
+        "publisher": "Publisher D",
+        "created_at": "2023-09-20T22:47:51.771Z",
+        "updated_at": "2023-09-20T10:14:20.545Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cf16bfd4-a914-42e2-b916-639149f98737",
+        "title": "Geography Textbook",
+        "subject": "Geography",
+        "grade_level": 16091,
+        "publication_year": "2023-09-20T15:33:32.045Z",
+        "publisher": "Publisher E",
+        "created_at": "2023-09-20T20:26:22.972Z",
+        "updated_at": "2023-09-20T19:47:25.441Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "5b44129c-f278-4965-be18-61ef96933b43",
+        "start_time": "2023-09-20T23:10:05.315Z",
+        "end_time": "2023-09-21T00:48:40.020Z",
+        "created_at": "2023-09-20T12:31:48.277Z",
+        "updated_at": "2023-09-20T13:52:31.362Z",
+        "textbook_id": "cf16bfd4-a914-42e2-b916-639149f98737",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c48bb14a-12c7-4f77-bfa3-2ff43492b26c",
+        "start_time": "2023-09-21T01:59:42.645Z",
+        "end_time": "2023-09-21T01:19:03.397Z",
+        "created_at": "2023-09-20T13:52:13.751Z",
+        "updated_at": "2023-09-20T14:36:12.999Z",
+        "textbook_id": "cf16bfd4-a914-42e2-b916-639149f98737",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38ca1171-9c41-402f-9148-413dd4d898f2",
+        "start_time": "2023-09-21T06:01:45.911Z",
+        "end_time": "2023-09-20T14:40:11.820Z",
+        "created_at": "2023-09-20T17:49:59.814Z",
+        "updated_at": "2023-09-20T13:14:29.687Z",
+        "textbook_id": "b3ae2f52-224c-4234-ba98-d8eb8f492184",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfd6f799-0997-455d-a32b-a76e674a40c1",
+        "start_time": "2023-09-21T08:50:11.902Z",
+        "end_time": "2023-09-20T15:04:28.205Z",
+        "created_at": "2023-09-21T01:25:24.827Z",
+        "updated_at": "2023-09-20T09:48:56.771Z",
+        "textbook_id": "e22616d4-3eca-49a4-b394-378f4b9e1c4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac2bc902-2a7b-477f-a037-d34157d3d7a8",
+        "start_time": "2023-09-20T23:55:20.411Z",
+        "end_time": "2023-09-20T16:18:34.479Z",
+        "created_at": "2023-09-20T23:41:49.365Z",
+        "updated_at": "2023-09-20T20:02:33.100Z",
+        "textbook_id": "cf16bfd4-a914-42e2-b916-639149f98737",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "307168dd-a470-4eaf-9696-174a42f38392",
+        "title": "Chapter 1",
+        "number": 88695,
+        "page_start": 2574,
+        "page_end": 75658,
+        "created_at": "2023-09-20T13:03:50.861Z",
+        "updated_at": "2023-09-20T13:31:23.088Z",
+        "textbook_id": "b3ae2f52-224c-4234-ba98-d8eb8f492184"
+      },
+      {
+        "id": "95cc1d60-ae35-4031-8eea-0e7a1d1db16e",
+        "title": "Chapter 2",
+        "number": 53166,
+        "page_start": 96914,
+        "page_end": 78168,
+        "created_at": "2023-09-21T00:51:31.614Z",
+        "updated_at": "2023-09-20T22:10:23.682Z",
+        "textbook_id": "e22616d4-3eca-49a4-b394-378f4b9e1c4a"
+      },
+      {
+        "id": "5dd8e5d2-ccaa-4f66-9b10-362539ef047f",
+        "title": "Chapter 3",
+        "number": 2473,
+        "page_start": 67123,
+        "page_end": 6025,
+        "created_at": "2023-09-21T05:00:05.836Z",
+        "updated_at": "2023-09-20T12:02:56.967Z",
+        "textbook_id": "89523eb9-c710-4f0e-b703-1955a15ebc98"
+      },
+      {
+        "id": "fe210191-527d-433c-ab11-1c99af33b756",
+        "title": "Chapter 4",
+        "number": 19013,
+        "page_start": 2654,
+        "page_end": 32389,
+        "created_at": "2023-09-21T06:39:20.206Z",
+        "updated_at": "2023-09-20T12:14:54.613Z",
+        "textbook_id": "e22616d4-3eca-49a4-b394-378f4b9e1c4a"
+      },
+      {
+        "id": "137c00b7-f05c-430c-b2ef-f1f350a985b5",
+        "title": "Chapter 5",
+        "number": 41335,
+        "page_start": 44877,
+        "page_end": 34105,
+        "created_at": "2023-09-20T11:09:56.300Z",
+        "updated_at": "2023-09-20T22:05:55.530Z",
+        "textbook_id": "cf16bfd4-a914-42e2-b916-639149f98737"
+      }
+    ],
+    "question": [
+      {
+        "id": "3d9e94ed-d56f-494f-8d4a-2f073340ac7f",
+        "content": "What is the capital of France?",
+        "difficulty_level": 25634,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-20T21:12:01.131Z",
+        "updated_at": "2023-09-20T13:46:49.862Z",
+        "chapter_id": "137c00b7-f05c-430c-b2ef-f1f350a985b5"
+      },
+      {
+        "id": "d3ab68cc-2097-4b40-8cc2-0e1efa0dd207",
+        "content": "Solve the equation: 2x + 5 = 15.",
+        "difficulty_level": 3060,
+        "question_type": "True or False",
+        "answer": "x = 5",
+        "created_at": "2023-09-20T11:36:41.358Z",
+        "updated_at": "2023-09-20T18:38:58.014Z",
+        "chapter_id": "5dd8e5d2-ccaa-4f66-9b10-362539ef047f"
+      },
+      {
+        "id": "0be7e8c2-f345-4345-b22d-d61f06585c3b",
+        "content": "Who discovered electricity?",
+        "difficulty_level": 92880,
+        "question_type": "Fill in the Blank",
+        "answer": "Benjamin Franklin",
+        "created_at": "2023-09-21T00:44:15.318Z",
+        "updated_at": "2023-09-20T09:16:52.142Z",
+        "chapter_id": "95cc1d60-ae35-4031-8eea-0e7a1d1db16e"
+      },
+      {
+        "id": "7ca24006-2a1a-4baf-bfe6-89d88ff255b3",
+        "content": "What is the chemical formula of water?",
+        "difficulty_level": 32830,
+        "question_type": "Short Answer",
+        "answer": "H2O",
+        "created_at": "2023-09-21T04:45:53.714Z",
+        "updated_at": "2023-09-20T13:04:28.538Z",
+        "chapter_id": "95cc1d60-ae35-4031-8eea-0e7a1d1db16e"
+      },
+      {
+        "id": "6a47f0e2-9284-4c14-9ea1-2f10dd641511",
+        "content": "Explain the concept of gravity.",
+        "difficulty_level": 79533,
+        "question_type": "Essay",
+        "answer": "Gravity is a force that attracts objects towards each other.",
+        "created_at": "2023-09-21T01:27:38.995Z",
+        "updated_at": "2023-09-20T11:18:13.814Z",
+        "chapter_id": "fe210191-527d-433c-ab11-1c99af33b756"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "854c6bda-1a6d-4fcf-9cc2-2e9b54ff43dc",
+        "email": "Era_Stamm@roq.tech",
+        "firstName": "Aric",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/820.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ac9b40a-a136-4ae3-922d-896c2466bfb6",
+        "email": "Grayce42@roq.tech",
+        "firstName": "Savanna",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92305868",
+        "tenantId": null
+      },
+      {
+        "reference": "8496aaef-dc4d-4e1e-a18b-357c783b8921",
+        "email": "Foster.Dooley21@roq.tech",
+        "firstName": "Rosalia",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44165610",
+        "tenantId": null
+      },
+      {
+        "reference": "4e59aa2a-887a-491e-9ffc-5deb52a19de4",
+        "email": "Kristy9@roq.tech",
+        "firstName": "Allison",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9671824",
+        "tenantId": null
+      },
+      {
+        "reference": "f1c304a7-b550-403f-888e-a4b92187fcfc",
+        "email": "Deven.Tillman28@roq.tech",
+        "firstName": "Conrad",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1095.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "eb3f303c-b4af-4fc7-af5a-20cc336db397",
+        "title": "Mathematics for Beginners",
+        "subject": "Mathematics",
+        "grade_level": 81034,
+        "publication_year": "2023-09-20T14:16:22.937Z",
+        "publisher": "Publisher A",
+        "created_at": "2023-09-20T22:20:59.188Z",
+        "updated_at": "2023-09-20T09:15:27.982Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "cdb8ae37-98a1-4263-999c-df912c5f5f84",
+        "title": "History of World War II",
+        "subject": "History",
+        "grade_level": 8840,
+        "publication_year": "2023-09-21T01:14:07.334Z",
+        "publisher": "Publisher B",
+        "created_at": "2023-09-20T21:51:12.658Z",
+        "updated_at": "2023-09-20T14:28:39.327Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "a80a7793-b291-4adf-a927-f86df1de07ae",
+        "title": "Introduction to Physics",
+        "subject": "Physics",
+        "grade_level": 83480,
+        "publication_year": "2023-09-21T00:05:58.962Z",
+        "publisher": "Publisher C",
+        "created_at": "2023-09-21T01:20:55.484Z",
+        "updated_at": "2023-09-21T06:03:22.907Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ecb8ba20-0712-47ff-a422-1c893d478bd3",
+        "title": "English Grammar Essentials",
+        "subject": "English",
+        "grade_level": 50020,
+        "publication_year": "2023-09-21T07:27:35.581Z",
+        "publisher": "Publisher D",
+        "created_at": "2023-09-21T04:49:00.667Z",
+        "updated_at": "2023-09-20T22:07:01.679Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ffd45cec-fb9a-4c29-94af-5d92aeeafb7a",
+        "title": "Chemistry: A Practical Approach",
+        "subject": "Chemistry",
+        "grade_level": 58595,
+        "publication_year": "2023-09-21T08:09:48.403Z",
+        "publisher": "Publisher E",
+        "created_at": "2023-09-20T15:30:42.878Z",
+        "updated_at": "2023-09-20T18:00:23.091Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "63294bb0-c857-4d07-8407-84b7d80eb2ec",
+        "start_time": "2023-09-20T15:05:35.487Z",
+        "end_time": "2023-09-21T02:43:55.937Z",
+        "created_at": "2023-09-20T16:26:03.135Z",
+        "updated_at": "2023-09-21T06:20:28.381Z",
+        "textbook_id": "a80a7793-b291-4adf-a927-f86df1de07ae",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f2ab608-7617-40f8-b24f-ea2c084ad9d2",
+        "start_time": "2023-09-20T16:40:26.412Z",
+        "end_time": "2023-09-21T02:02:42.585Z",
+        "created_at": "2023-09-20T17:36:21.237Z",
+        "updated_at": "2023-09-21T02:20:47.560Z",
+        "textbook_id": "ecb8ba20-0712-47ff-a422-1c893d478bd3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "973efc65-4aa5-489e-9dd9-ea194a42c6d7",
+        "start_time": "2023-09-20T17:03:46.373Z",
+        "end_time": "2023-09-21T00:06:22.939Z",
+        "created_at": "2023-09-20T11:53:08.142Z",
+        "updated_at": "2023-09-20T17:00:06.967Z",
+        "textbook_id": "cdb8ae37-98a1-4263-999c-df912c5f5f84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2255197a-02e0-42ef-a887-7ba6a2771107",
+        "start_time": "2023-09-20T10:21:07.546Z",
+        "end_time": "2023-09-21T00:18:00.645Z",
+        "created_at": "2023-09-20T09:55:02.670Z",
+        "updated_at": "2023-09-20T14:19:32.491Z",
+        "textbook_id": "ffd45cec-fb9a-4c29-94af-5d92aeeafb7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61a57822-ba4a-4281-86d8-3caf7c2bc7bf",
+        "start_time": "2023-09-21T02:07:52.138Z",
+        "end_time": "2023-09-21T03:33:25.445Z",
+        "created_at": "2023-09-20T18:30:25.876Z",
+        "updated_at": "2023-09-20T17:07:26.729Z",
+        "textbook_id": "a80a7793-b291-4adf-a927-f86df1de07ae",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "e5716665-4c15-411c-aa1e-a398b17f2186",
+        "title": "Chapter 1: Introduction",
+        "number": 16943,
+        "page_start": 82915,
+        "page_end": 60980,
+        "created_at": "2023-09-20T14:58:37.443Z",
+        "updated_at": "2023-09-20T17:16:01.844Z",
+        "textbook_id": "cdb8ae37-98a1-4263-999c-df912c5f5f84"
+      },
+      {
+        "id": "2c881ce5-3d19-4762-99cc-f1380a1808bd",
+        "title": "Chapter 2: Theoretical Framework",
+        "number": 83004,
+        "page_start": 77184,
+        "page_end": 14982,
+        "created_at": "2023-09-20T21:31:21.665Z",
+        "updated_at": "2023-09-21T03:02:29.377Z",
+        "textbook_id": "cdb8ae37-98a1-4263-999c-df912c5f5f84"
+      },
+      {
+        "id": "1992602a-b57b-4e1f-abcd-05483600eee6",
+        "title": "Chapter 3: Methodology",
+        "number": 37955,
+        "page_start": 53213,
+        "page_end": 72985,
+        "created_at": "2023-09-20T17:05:13.274Z",
+        "updated_at": "2023-09-20T22:27:45.600Z",
+        "textbook_id": "a80a7793-b291-4adf-a927-f86df1de07ae"
+      },
+      {
+        "id": "bfeec8bb-c2c4-432e-8824-1ee9216d890a",
+        "title": "Chapter 4: Results and Analysis",
+        "number": 48443,
+        "page_start": 35509,
+        "page_end": 5724,
+        "created_at": "2023-09-20T11:12:33.813Z",
+        "updated_at": "2023-09-21T06:31:30.156Z",
+        "textbook_id": "ecb8ba20-0712-47ff-a422-1c893d478bd3"
+      },
+      {
+        "id": "6aca38b6-48ec-40c7-b670-0732785a8473",
+        "title": "Chapter 5: Conclusion",
+        "number": 40266,
+        "page_start": 82886,
+        "page_end": 90239,
+        "created_at": "2023-09-20T12:34:34.869Z",
+        "updated_at": "2023-09-21T02:54:15.047Z",
+        "textbook_id": "eb3f303c-b4af-4fc7-af5a-20cc336db397"
+      }
+    ],
+    "question": [
+      {
+        "id": "cd8578fd-1c89-41fa-bc6c-cf6cfa81b818",
+        "content": "What is the capital of France?",
+        "difficulty_level": 79634,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-20T18:00:53.659Z",
+        "updated_at": "2023-09-20T20:22:20.667Z",
+        "chapter_id": "1992602a-b57b-4e1f-abcd-05483600eee6"
+      },
+      {
+        "id": "040a6713-1a0e-46e3-8e4b-df028a4e984d",
+        "content": "Solve the equation: 2x + 5 = 15",
+        "difficulty_level": 46930,
+        "question_type": "True or False",
+        "answer": "x = 5",
+        "created_at": "2023-09-21T01:37:43.683Z",
+        "updated_at": "2023-09-20T11:08:58.401Z",
+        "chapter_id": "bfeec8bb-c2c4-432e-8824-1ee9216d890a"
+      },
+      {
+        "id": "651bf5a7-5ef9-48ee-97a9-7dff456deabc",
+        "content": "Explain the concept of natural selection.",
+        "difficulty_level": 47280,
+        "question_type": "Short Answer",
+        "answer": "Natural selection is the process by which organisms with favorable traits survive and reproduce.",
+        "created_at": "2023-09-20T11:39:50.240Z",
+        "updated_at": "2023-09-20T13:44:00.619Z",
+        "chapter_id": "e5716665-4c15-411c-aa1e-a398b17f2186"
+      },
+      {
+        "id": "9a449d30-f884-4611-a852-33c94d988f61",
+        "content": "Identify the main theme of the novel.",
+        "difficulty_level": 25221,
+        "question_type": "Essay",
+        "answer": "The main theme of the novel is the struggle for freedom.",
+        "created_at": "2023-09-20T17:23:55.559Z",
+        "updated_at": "2023-09-21T04:45:08.383Z",
+        "chapter_id": "e5716665-4c15-411c-aa1e-a398b17f2186"
+      },
+      {
+        "id": "224a50b3-149d-4ee1-a93b-15ae9402aaae",
+        "content": "Balance the following chemical equation: H2 + O2 = H2O",
+        "difficulty_level": 62676,
+        "question_type": "Matching",
+        "answer": "H2 + O2 = 2H2O",
+        "created_at": "2023-09-21T07:32:22.848Z",
+        "updated_at": "2023-09-20T15:23:31.540Z",
+        "chapter_id": "bfeec8bb-c2c4-432e-8824-1ee9216d890a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3f9989a6-7af4-41fd-929f-100a5c0e2b02",
+        "email": "Frank85@roq.tech",
+        "firstName": "Marc",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/436.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1dd4150c-57f8-448e-85f5-771f1bc14075",
+        "email": "Luna.Grant15@roq.tech",
+        "firstName": "Arch",
+        "lastName": "Blanda-Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "db3311dd-f9ea-4ef7-8949-a881eb3a7416",
+        "email": "Johann_Stehr@roq.tech",
+        "firstName": "Laverna",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1032.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e38488c3-e1c2-4f7e-86fb-f6f7674f6c38",
+        "email": "Timmy_Aufderhar-Jakubowski83@roq.tech",
+        "firstName": "Tremaine",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1093.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9005a306-ca63-4563-a545-6d15e1aa4b09",
+        "email": "Juliana61@roq.tech",
+        "firstName": "Emanuel",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/984.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "2261978d-7d0e-4553-954a-c11145faf3ec",
+        "title": "Mathematics for Beginners",
+        "subject": "Mathematics",
+        "grade_level": 67819,
+        "publication_year": "2023-09-21T02:41:17.382Z",
+        "publisher": "ABC Publications",
+        "created_at": "2023-09-20T16:08:14.916Z",
+        "updated_at": "2023-09-20T23:25:33.466Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "fe659738-f975-4c50-b7ee-212d0eb1b554",
+        "title": "Science Explorations",
+        "subject": "Science",
+        "grade_level": 76857,
+        "publication_year": "2023-09-20T16:38:15.043Z",
+        "publisher": "XYZ Books",
+        "created_at": "2023-09-21T01:41:07.564Z",
+        "updated_at": "2023-09-21T02:11:57.522Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "dd547b1a-358b-471b-a4c0-699785948abc",
+        "title": "Literary Classics",
+        "subject": "Literature",
+        "grade_level": 47359,
+        "publication_year": "2023-09-20T22:03:31.961Z",
+        "publisher": "Global Education",
+        "created_at": "2023-09-20T23:12:53.051Z",
+        "updated_at": "2023-09-20T20:07:19.884Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "121fc44d-5a84-4b89-906d-9b4204617f85",
+        "title": "History Uncovered",
+        "subject": "History",
+        "grade_level": 73765,
+        "publication_year": "2023-09-20T11:48:56.061Z",
+        "publisher": "Academic Press",
+        "created_at": "2023-09-20T09:48:03.903Z",
+        "updated_at": "2023-09-21T07:23:37.681Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "461c5cf7-4f1b-40e6-adf5-efb2a4029480",
+        "title": "Geography Insights",
+        "subject": "Geography",
+        "grade_level": 44158,
+        "publication_year": "2023-09-21T05:21:53.833Z",
+        "publisher": "Scholarly Publishing",
+        "created_at": "2023-09-20T16:09:12.126Z",
+        "updated_at": "2023-09-20T12:32:15.705Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "e65a0c07-eb28-4ed6-ac5a-c991c343ea94",
+        "start_time": "2023-09-20T15:46:52.508Z",
+        "end_time": "2023-09-20T18:59:14.468Z",
+        "created_at": "2023-09-21T07:48:35.425Z",
+        "updated_at": "2023-09-21T05:45:46.513Z",
+        "textbook_id": "fe659738-f975-4c50-b7ee-212d0eb1b554",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83de082a-d992-4d83-937e-0dd7ccfbbd19",
+        "start_time": "2023-09-20T18:00:19.796Z",
+        "end_time": "2023-09-20T13:34:11.899Z",
+        "created_at": "2023-09-20T14:58:29.856Z",
+        "updated_at": "2023-09-21T00:07:46.309Z",
+        "textbook_id": "fe659738-f975-4c50-b7ee-212d0eb1b554",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6930b0a-cae9-46cd-8a74-ffb7b0c2fa7e",
+        "start_time": "2023-09-20T11:23:41.241Z",
+        "end_time": "2023-09-21T07:35:43.660Z",
+        "created_at": "2023-09-20T21:58:23.652Z",
+        "updated_at": "2023-09-21T08:42:21.715Z",
+        "textbook_id": "461c5cf7-4f1b-40e6-adf5-efb2a4029480",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59f09021-5e1c-4577-8b31-945358c6cda1",
+        "start_time": "2023-09-20T14:28:49.106Z",
+        "end_time": "2023-09-21T02:40:34.479Z",
+        "created_at": "2023-09-20T18:27:21.103Z",
+        "updated_at": "2023-09-20T19:30:39.305Z",
+        "textbook_id": "fe659738-f975-4c50-b7ee-212d0eb1b554",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2038cfc0-765f-44ed-9326-0da84e312285",
+        "start_time": "2023-09-20T10:11:08.423Z",
+        "end_time": "2023-09-20T19:59:11.072Z",
+        "created_at": "2023-09-20T20:45:39.580Z",
+        "updated_at": "2023-09-21T04:46:58.087Z",
+        "textbook_id": "2261978d-7d0e-4553-954a-c11145faf3ec",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "02de90ce-2cf2-43da-8fd8-11914c930fd4",
+        "title": "Introduction",
+        "number": 95636,
+        "page_start": 78848,
+        "page_end": 98525,
+        "created_at": "2023-09-21T06:25:40.875Z",
+        "updated_at": "2023-09-21T08:31:35.265Z",
+        "textbook_id": "121fc44d-5a84-4b89-906d-9b4204617f85"
+      },
+      {
+        "id": "2b421e5c-5559-42a2-a382-3a3a4c9ca56e",
+        "title": "Fundamental Concepts",
+        "number": 74785,
+        "page_start": 90035,
+        "page_end": 21751,
+        "created_at": "2023-09-21T02:38:50.323Z",
+        "updated_at": "2023-09-20T11:44:20.151Z",
+        "textbook_id": "dd547b1a-358b-471b-a4c0-699785948abc"
+      },
+      {
+        "id": "b8938138-b901-4574-9317-e78f1caa706d",
+        "title": "Key Principles",
+        "number": 2731,
+        "page_start": 17992,
+        "page_end": 86843,
+        "created_at": "2023-09-20T12:12:49.724Z",
+        "updated_at": "2023-09-20T12:57:14.512Z",
+        "textbook_id": "121fc44d-5a84-4b89-906d-9b4204617f85"
+      },
+      {
+        "id": "560ef384-d616-4402-950e-663eec4e285e",
+        "title": "Advanced Topics",
+        "number": 53077,
+        "page_start": 99946,
+        "page_end": 0,
+        "created_at": "2023-09-20T23:25:52.615Z",
+        "updated_at": "2023-09-21T08:46:16.271Z",
+        "textbook_id": "461c5cf7-4f1b-40e6-adf5-efb2a4029480"
+      },
+      {
+        "id": "d52218c7-e264-481b-b2d8-f57eccaa64fc",
+        "title": "Case Studies",
+        "number": 12978,
+        "page_start": 67506,
+        "page_end": 65780,
+        "created_at": "2023-09-20T19:10:46.078Z",
+        "updated_at": "2023-09-21T05:10:13.876Z",
+        "textbook_id": "dd547b1a-358b-471b-a4c0-699785948abc"
+      }
+    ],
+    "question": [
+      {
+        "id": "ceec2e65-f786-4cc4-8dc7-d1c673a42ba1",
+        "content": "What is the capital of France?",
+        "difficulty_level": 32647,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-21T04:16:31.031Z",
+        "updated_at": "2023-09-20T22:54:23.648Z",
+        "chapter_id": "d52218c7-e264-481b-b2d8-f57eccaa64fc"
+      },
+      {
+        "id": "db041a58-8ae4-4ec2-a1dc-dd5442d168f7",
+        "content": "Solve the equation: 2x + 5 = 13",
+        "difficulty_level": 25194,
+        "question_type": "True or False",
+        "answer": "x = 4",
+        "created_at": "2023-09-21T01:32:02.197Z",
+        "updated_at": "2023-09-21T03:27:40.881Z",
+        "chapter_id": "b8938138-b901-4574-9317-e78f1caa706d"
+      },
+      {
+        "id": "932137c2-f86c-427d-a24c-511ce4bf333e",
+        "content": "Explain the process of photosynthesis",
+        "difficulty_level": 43141,
+        "question_type": "Short Answer",
+        "answer": "Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen.",
+        "created_at": "2023-09-21T08:01:51.975Z",
+        "updated_at": "2023-09-20T12:18:03.949Z",
+        "chapter_id": "b8938138-b901-4574-9317-e78f1caa706d"
+      },
+      {
+        "id": "843a6354-f4f6-4cfd-9923-761f3c95dd4d",
+        "content": "Discuss the causes of World War II",
+        "difficulty_level": 36747,
+        "question_type": "Essay",
+        "answer": "The main causes of World War II were territorial disputes, political ideologies, and economic tensions.",
+        "created_at": "2023-09-20T19:55:42.883Z",
+        "updated_at": "2023-09-20T19:15:55.175Z",
+        "chapter_id": "560ef384-d616-4402-950e-663eec4e285e"
+      },
+      {
+        "id": "b870d6c1-d0ee-42dd-a7b2-49e41d213bac",
+        "content": "Compare and contrast the different types of rock formations",
+        "difficulty_level": 16166,
+        "question_type": "Problem Solving",
+        "answer": "Igneous rocks are formed from solidified lava or magma, while sedimentary rocks are formed from the accumulation of sediments over time.",
+        "created_at": "2023-09-21T07:53:35.908Z",
+        "updated_at": "2023-09-20T09:14:31.874Z",
+        "chapter_id": "2b421e5c-5559-42a2-a382-3a3a4c9ca56e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bdafcc58-aab0-4934-81d1-e74a9f64f244",
+        "email": "Dayna9@roq.tech",
+        "firstName": "Sammy",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/842.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72a8b769-53ac-4b63-bc54-96823516f4ac",
+        "email": "Shanelle13@roq.tech",
+        "firstName": "Dewitt",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1038.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99935086-e23f-4b43-9491-48f536b50abd",
+        "email": "Arielle81@roq.tech",
+        "firstName": "Kolby",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32244843",
+        "tenantId": null
+      },
+      {
+        "reference": "0281a9d1-6bcc-4c2d-bba8-f44f86001f4c",
+        "email": "Danial_Hackett@roq.tech",
+        "firstName": "Phyllis",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/491.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0adc9f6-d065-4c89-9525-b6fa7d103b0e",
+        "email": "Terrill_Bernier86@roq.tech",
+        "firstName": "Margarita",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1043.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "0b80b432-d9ec-417a-aa6d-8991f9c74bc9",
+        "title": "Mathematics 101",
+        "subject": "Mathematics",
+        "grade_level": 42191,
+        "publication_year": "2023-09-20T17:19:18.244Z",
+        "publisher": "ABC Publications",
+        "created_at": "2023-09-20T12:04:37.505Z",
+        "updated_at": "2023-09-20T21:45:42.103Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f617de6a-624d-4904-9fff-362ce0261532",
+        "title": "Science Explorers",
+        "subject": "Science",
+        "grade_level": 7377,
+        "publication_year": "2023-09-20T21:03:05.112Z",
+        "publisher": "Science World",
+        "created_at": "2023-09-20T10:04:17.748Z",
+        "updated_at": "2023-09-21T01:57:19.649Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "b51545b4-a3e4-4b76-a47e-0d409b5fd001",
+        "title": "Literature Classics",
+        "subject": "Literature",
+        "grade_level": 29231,
+        "publication_year": "2023-09-20T10:52:05.181Z",
+        "publisher": "Literary Works",
+        "created_at": "2023-09-21T04:18:35.485Z",
+        "updated_at": "2023-09-21T07:38:19.364Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7490a596-fc8a-4e42-816a-433b254815bd",
+        "title": "History Uncovered",
+        "subject": "History",
+        "grade_level": 62638,
+        "publication_year": "2023-09-21T02:09:06.983Z",
+        "publisher": "History Books",
+        "created_at": "2023-09-20T11:50:43.824Z",
+        "updated_at": "2023-09-21T02:33:45.988Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "bf487024-58c5-45f0-a1cd-68e0885b72e2",
+        "title": "Geography Insights",
+        "subject": "Geography",
+        "grade_level": 62294,
+        "publication_year": "2023-09-21T00:45:08.494Z",
+        "publisher": "Geography Press",
+        "created_at": "2023-09-21T06:18:37.742Z",
+        "updated_at": "2023-09-20T20:47:02.530Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "4749bfa9-6b35-470f-9578-0ea018f16a15",
+        "start_time": "2023-09-21T02:53:49.039Z",
+        "end_time": "2023-09-20T18:19:45.248Z",
+        "created_at": "2023-09-21T05:34:55.561Z",
+        "updated_at": "2023-09-21T06:08:59.167Z",
+        "textbook_id": "7490a596-fc8a-4e42-816a-433b254815bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67321216-f9b5-4d1d-b1ef-90fbb1888df2",
+        "start_time": "2023-09-21T00:00:20.283Z",
+        "end_time": "2023-09-20T23:43:22.011Z",
+        "created_at": "2023-09-20T21:53:43.083Z",
+        "updated_at": "2023-09-20T16:30:08.345Z",
+        "textbook_id": "bf487024-58c5-45f0-a1cd-68e0885b72e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a326864-4ea0-4805-b794-f1ce79bcbc66",
+        "start_time": "2023-09-20T20:32:25.130Z",
+        "end_time": "2023-09-21T00:42:48.705Z",
+        "created_at": "2023-09-20T19:04:42.083Z",
+        "updated_at": "2023-09-21T08:31:12.894Z",
+        "textbook_id": "0b80b432-d9ec-417a-aa6d-8991f9c74bc9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab1e46bb-a503-44dc-a774-fb84d0f0feeb",
+        "start_time": "2023-09-21T04:52:44.855Z",
+        "end_time": "2023-09-21T03:23:23.672Z",
+        "created_at": "2023-09-20T09:50:14.473Z",
+        "updated_at": "2023-09-20T14:47:38.319Z",
+        "textbook_id": "f617de6a-624d-4904-9fff-362ce0261532",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d7ed91f-8b82-4d83-8dfa-65c38c5dfb99",
+        "start_time": "2023-09-21T02:43:51.706Z",
+        "end_time": "2023-09-20T17:44:01.396Z",
+        "created_at": "2023-09-20T16:25:15.803Z",
+        "updated_at": "2023-09-20T14:18:49.082Z",
+        "textbook_id": "0b80b432-d9ec-417a-aa6d-8991f9c74bc9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "7eae9d95-32ab-4aaa-afaa-1830e2505e72",
+        "title": "Introduction",
+        "number": 58073,
+        "page_start": 8139,
+        "page_end": 25116,
+        "created_at": "2023-09-21T00:51:17.906Z",
+        "updated_at": "2023-09-20T19:29:30.591Z",
+        "textbook_id": "b51545b4-a3e4-4b76-a47e-0d409b5fd001"
+      },
+      {
+        "id": "0b79670f-7b4d-4185-9f4d-eaf54f75289c",
+        "title": "Chapter 1",
+        "number": 841,
+        "page_start": 77359,
+        "page_end": 61514,
+        "created_at": "2023-09-20T22:43:26.032Z",
+        "updated_at": "2023-09-20T11:23:17.387Z",
+        "textbook_id": "0b80b432-d9ec-417a-aa6d-8991f9c74bc9"
+      },
+      {
+        "id": "1eaaa77d-7e29-4280-a246-02faefc96e9d",
+        "title": "Chapter 2",
+        "number": 72062,
+        "page_start": 92449,
+        "page_end": 81490,
+        "created_at": "2023-09-20T13:10:28.369Z",
+        "updated_at": "2023-09-20T18:51:43.522Z",
+        "textbook_id": "7490a596-fc8a-4e42-816a-433b254815bd"
+      },
+      {
+        "id": "c73149ff-a08b-48a0-9494-d9254ab524ae",
+        "title": "Chapter 3",
+        "number": 12027,
+        "page_start": 56053,
+        "page_end": 46549,
+        "created_at": "2023-09-21T03:14:32.994Z",
+        "updated_at": "2023-09-20T20:28:20.610Z",
+        "textbook_id": "b51545b4-a3e4-4b76-a47e-0d409b5fd001"
+      },
+      {
+        "id": "fee5b601-2690-4d6b-a15c-bb63135a1070",
+        "title": "Conclusion",
+        "number": 13073,
+        "page_start": 10790,
+        "page_end": 72778,
+        "created_at": "2023-09-20T15:47:24.835Z",
+        "updated_at": "2023-09-20T11:45:49.107Z",
+        "textbook_id": "bf487024-58c5-45f0-a1cd-68e0885b72e2"
+      }
+    ],
+    "question": [
+      {
+        "id": "09c0457e-2ec5-4a58-9bd6-cf47ff536d35",
+        "content": "What is the capital of France?",
+        "difficulty_level": 62270,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-21T02:20:55.045Z",
+        "updated_at": "2023-09-21T05:48:11.691Z",
+        "chapter_id": "fee5b601-2690-4d6b-a15c-bb63135a1070"
+      },
+      {
+        "id": "8435f733-8dc7-45dc-89fe-817d9b7ebb8d",
+        "content": "Solve the equation: 2x + 5 = 13",
+        "difficulty_level": 1577,
+        "question_type": "True or False",
+        "answer": "x = 4",
+        "created_at": "2023-09-20T14:04:06.536Z",
+        "updated_at": "2023-09-21T03:12:04.355Z",
+        "chapter_id": "c73149ff-a08b-48a0-9494-d9254ab524ae"
+      },
+      {
+        "id": "bb90e715-409e-4cb3-bb5c-253a85b24196",
+        "content": "Who wrote the novel 'Pride and Prejudice'?",
+        "difficulty_level": 80760,
+        "question_type": "Fill in the Blank",
+        "answer": "Jane Austen",
+        "created_at": "2023-09-21T04:15:38.453Z",
+        "updated_at": "2023-09-21T06:25:14.819Z",
+        "chapter_id": "fee5b601-2690-4d6b-a15c-bb63135a1070"
+      },
+      {
+        "id": "d03b00da-8b1c-40e1-97c8-7ca17a4eed7e",
+        "content": "What is the atomic number of oxygen?",
+        "difficulty_level": 31470,
+        "question_type": "Short Answer",
+        "answer": "8",
+        "created_at": "2023-09-20T15:22:57.242Z",
+        "updated_at": "2023-09-20T20:07:13.452Z",
+        "chapter_id": "0b79670f-7b4d-4185-9f4d-eaf54f75289c"
+      },
+      {
+        "id": "e4562e76-2c98-4566-93bf-4030c002a4df",
+        "content": "What are the three branches of the US government?",
+        "difficulty_level": 55826,
+        "question_type": "Essay",
+        "answer": "Executive, Legislative, Judicial",
+        "created_at": "2023-09-21T01:18:21.046Z",
+        "updated_at": "2023-09-20T21:32:36.031Z",
+        "chapter_id": "c73149ff-a08b-48a0-9494-d9254ab524ae"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a8c158ba-396d-4db6-96b3-527a59dfdc65",
+        "email": "Alva_Carroll4@roq.tech",
+        "firstName": "Linwood",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89231482",
+        "tenantId": null
+      },
+      {
+        "reference": "8c2d41d0-db37-4c39-ad01-c4f90feca85a",
+        "email": "Candido53@roq.tech",
+        "firstName": "Roberta",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/377.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea1be554-c1f2-45c8-b799-6ec7577bde25",
+        "email": "Darien_Hand69@roq.tech",
+        "firstName": "Bethel",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50705969",
+        "tenantId": null
+      },
+      {
+        "reference": "d1e38123-68a4-40ca-8325-08878b257d4e",
+        "email": "Caterina.Cartwright48@roq.tech",
+        "firstName": "Johathan",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88736845",
+        "tenantId": null
+      },
+      {
+        "reference": "6c5592ed-e4f0-438b-9396-c2af8096ad04",
+        "email": "Amari.Bosco@roq.tech",
+        "firstName": "Lonnie",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12458536",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "01c73c10-0ae7-4607-b528-ff362da92dcb",
+        "title": "Mathematics for Beginners",
+        "subject": "Mathematics",
+        "grade_level": 56002,
+        "publication_year": "2023-09-20T08:55:44.041Z",
+        "publisher": "ABC Publications",
+        "created_at": "2023-09-21T00:15:08.838Z",
+        "updated_at": "2023-09-20T16:45:56.575Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e53b555a-5b6f-4580-8e17-91448eff7cca",
+        "title": "Science Explorations",
+        "subject": "Science",
+        "grade_level": 44225,
+        "publication_year": "2023-09-21T05:55:17.940Z",
+        "publisher": "Science Publishers",
+        "created_at": "2023-09-20T10:23:09.741Z",
+        "updated_at": "2023-09-21T00:17:17.525Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "7a5f55ab-431c-4aa8-b2c7-0ab9cf672da3",
+        "title": "English Grammar Made Easy",
+        "subject": "English",
+        "grade_level": 21269,
+        "publication_year": "2023-09-21T06:11:27.525Z",
+        "publisher": "Language Learning Ltd.",
+        "created_at": "2023-09-20T13:06:39.958Z",
+        "updated_at": "2023-09-21T03:52:42.346Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "6d5cd8cd-d07d-4dd5-b455-5d95f4e3e701",
+        "title": "History Through the Ages",
+        "subject": "History",
+        "grade_level": 24902,
+        "publication_year": "2023-09-20T20:47:31.457Z",
+        "publisher": "Historical Society",
+        "created_at": "2023-09-20T09:44:38.146Z",
+        "updated_at": "2023-09-20T22:55:07.618Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "2708c997-3f84-45be-b6c4-ae720ff6d30e",
+        "title": "Geography Around the World",
+        "subject": "Geography",
+        "grade_level": 74061,
+        "publication_year": "2023-09-20T11:39:07.693Z",
+        "publisher": "Geography Books",
+        "created_at": "2023-09-21T07:00:22.473Z",
+        "updated_at": "2023-09-20T15:58:43.839Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "89c62b2b-3079-4a1d-b164-7dd7d892fbff",
+        "start_time": "2023-09-20T22:01:53.895Z",
+        "end_time": "2023-09-20T22:12:38.818Z",
+        "created_at": "2023-09-21T05:20:27.400Z",
+        "updated_at": "2023-09-20T21:47:39.447Z",
+        "textbook_id": "6d5cd8cd-d07d-4dd5-b455-5d95f4e3e701",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e18c9d9-d3f7-4ef1-be04-0850cd451734",
+        "start_time": "2023-09-20T12:57:21.986Z",
+        "end_time": "2023-09-21T01:43:44.364Z",
+        "created_at": "2023-09-20T18:44:00.373Z",
+        "updated_at": "2023-09-20T19:41:29.485Z",
+        "textbook_id": "2708c997-3f84-45be-b6c4-ae720ff6d30e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cddded8-f9da-41fc-ba10-da7e347c4121",
+        "start_time": "2023-09-20T09:14:01.636Z",
+        "end_time": "2023-09-20T22:29:02.636Z",
+        "created_at": "2023-09-21T03:50:18.873Z",
+        "updated_at": "2023-09-20T14:38:42.294Z",
+        "textbook_id": "2708c997-3f84-45be-b6c4-ae720ff6d30e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbe9bf0e-ab9c-4b03-9140-1a58e3e7ad08",
+        "start_time": "2023-09-20T14:54:12.361Z",
+        "end_time": "2023-09-20T23:14:45.484Z",
+        "created_at": "2023-09-20T21:25:01.511Z",
+        "updated_at": "2023-09-20T21:40:16.444Z",
+        "textbook_id": "7a5f55ab-431c-4aa8-b2c7-0ab9cf672da3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7694208c-dd4e-42a2-83f2-9071097e7950",
+        "start_time": "2023-09-21T05:18:03.441Z",
+        "end_time": "2023-09-21T01:27:14.534Z",
+        "created_at": "2023-09-21T05:08:10.455Z",
+        "updated_at": "2023-09-20T17:22:00.798Z",
+        "textbook_id": "2708c997-3f84-45be-b6c4-ae720ff6d30e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "f4468465-9612-428d-978e-0b914a76eeb4",
+        "title": "Introduction",
+        "number": 51965,
+        "page_start": 12206,
+        "page_end": 20366,
+        "created_at": "2023-09-20T09:11:35.165Z",
+        "updated_at": "2023-09-20T13:01:46.362Z",
+        "textbook_id": "01c73c10-0ae7-4607-b528-ff362da92dcb"
+      },
+      {
+        "id": "92d71c88-101d-4df4-97b6-46d709f59dcf",
+        "title": "Fundamental Concepts",
+        "number": 3984,
+        "page_start": 31986,
+        "page_end": 7811,
+        "created_at": "2023-09-20T21:27:54.508Z",
+        "updated_at": "2023-09-20T18:52:28.837Z",
+        "textbook_id": "2708c997-3f84-45be-b6c4-ae720ff6d30e"
+      },
+      {
+        "id": "2961c820-afcb-4e77-970b-a5dcea64f92f",
+        "title": "Advanced Techniques",
+        "number": 72703,
+        "page_start": 9786,
+        "page_end": 1354,
+        "created_at": "2023-09-21T08:04:32.675Z",
+        "updated_at": "2023-09-20T11:25:39.606Z",
+        "textbook_id": "e53b555a-5b6f-4580-8e17-91448eff7cca"
+      },
+      {
+        "id": "ca3351c7-3c13-4be6-887d-dc0bf63fcad2",
+        "title": "Case Studies",
+        "number": 16623,
+        "page_start": 47353,
+        "page_end": 30365,
+        "created_at": "2023-09-20T20:43:38.235Z",
+        "updated_at": "2023-09-21T07:42:44.781Z",
+        "textbook_id": "7a5f55ab-431c-4aa8-b2c7-0ab9cf672da3"
+      },
+      {
+        "id": "77d6a2b2-7e5c-4d02-a6fb-8831bd3474a9",
+        "title": "Conclusion",
+        "number": 27837,
+        "page_start": 49734,
+        "page_end": 32955,
+        "created_at": "2023-09-20T12:17:12.851Z",
+        "updated_at": "2023-09-20T18:40:41.010Z",
+        "textbook_id": "2708c997-3f84-45be-b6c4-ae720ff6d30e"
+      }
+    ],
+    "question": [
+      {
+        "id": "c652b81b-344b-4c0d-a067-9dc638a2bd12",
+        "content": "What is the capital of France?",
+        "difficulty_level": 50296,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-20T13:08:31.483Z",
+        "updated_at": "2023-09-21T03:58:16.747Z",
+        "chapter_id": "ca3351c7-3c13-4be6-887d-dc0bf63fcad2"
+      },
+      {
+        "id": "3de0d48a-b520-40c1-b347-a229a353090c",
+        "content": "Solve the equation: 2x + 5 = 13",
+        "difficulty_level": 6321,
+        "question_type": "True or False",
+        "answer": "x = 4",
+        "created_at": "2023-09-21T07:53:19.742Z",
+        "updated_at": "2023-09-20T09:46:38.250Z",
+        "chapter_id": "ca3351c7-3c13-4be6-887d-dc0bf63fcad2"
+      },
+      {
+        "id": "768bee40-ce88-4995-95bb-eadb836e76ff",
+        "content": "Explain the process of photosynthesis.",
+        "difficulty_level": 72923,
+        "question_type": "Short Answer",
+        "answer": "Photosynthesis is the process by which plants convert sunlight into energy.",
+        "created_at": "2023-09-20T17:41:00.534Z",
+        "updated_at": "2023-09-20T11:13:55.705Z",
+        "chapter_id": "77d6a2b2-7e5c-4d02-a6fb-8831bd3474a9"
+      },
+      {
+        "id": "b04f2f16-c4f4-4c1e-9dbf-c8e31f3383dd",
+        "content": "Discuss the causes of World War II.",
+        "difficulty_level": 25213,
+        "question_type": "Essay",
+        "answer": "The causes of World War II include territorial disputes, political ideologies, and economic factors.",
+        "created_at": "2023-09-21T00:14:01.332Z",
+        "updated_at": "2023-09-20T17:40:31.597Z",
+        "chapter_id": "f4468465-9612-428d-978e-0b914a76eeb4"
+      },
+      {
+        "id": "921d77a0-6b02-4e0d-8bb0-72515e476053",
+        "content": "Identify the major rivers in Asia.",
+        "difficulty_level": 87814,
+        "question_type": "Fill in the Blank",
+        "answer": "The major rivers in Asia include the Yangtze, Ganges, Mekong, Indus, and Yellow River.",
+        "created_at": "2023-09-20T20:03:39.433Z",
+        "updated_at": "2023-09-21T04:14:44.238Z",
+        "chapter_id": "77d6a2b2-7e5c-4d02-a6fb-8831bd3474a9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "648dd9a6-33bb-4c20-89b0-482797e14cb8",
+        "email": "Mckenzie92@roq.tech",
+        "firstName": "Noelia",
+        "lastName": "Russel-Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32e80290-34f6-4d06-bd2b-497242398a31",
+        "email": "Shanny_Schuster78@roq.tech",
+        "firstName": "Earline",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24ce04ff-85be-422e-8c4b-aa2191e28a98",
+        "email": "Samson64@roq.tech",
+        "firstName": "Melvina",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44165482",
+        "tenantId": null
+      },
+      {
+        "reference": "d3feb0b5-ae78-4eae-9959-54dea10a9341",
+        "email": "Norma81@roq.tech",
+        "firstName": "Rosalind",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2fc1bc5-0373-42a5-b407-b4337f6e07fa",
+        "email": "Fredy_Nitzsche20@roq.tech",
+        "firstName": "Bernice",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98250285",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "0051ff0e-5fb8-4617-8e7d-142d451ff7b7",
+        "title": "Introduction to Physics",
+        "subject": "Physics",
+        "grade_level": 25411,
+        "publication_year": "2023-09-20T09:52:44.521Z",
+        "publisher": "ABC Publications",
+        "created_at": "2023-09-20T10:57:32.446Z",
+        "updated_at": "2023-09-20T23:43:38.112Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "88329dc4-b926-4316-873d-f8ea3f06e262",
+        "title": "Chemistry for Beginners",
+        "subject": "Chemistry",
+        "grade_level": 18,
+        "publication_year": "2023-09-21T08:17:22.788Z",
+        "publisher": "XYZ Books",
+        "created_at": "2023-09-21T06:02:27.176Z",
+        "updated_at": "2023-09-21T06:21:05.592Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f97895af-91b3-483c-a2fc-34bf6fc6e401",
+        "title": "Mathematics Made Easy",
+        "subject": "Mathematics",
+        "grade_level": 39880,
+        "publication_year": "2023-09-20T16:00:38.775Z",
+        "publisher": "Academic Press",
+        "created_at": "2023-09-21T02:24:41.775Z",
+        "updated_at": "2023-09-20T22:40:09.220Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "3a57ab61-ffb7-4ae7-8125-5d247f679204",
+        "title": "Biology: A Comprehensive Guide",
+        "subject": "Biology",
+        "grade_level": 44036,
+        "publication_year": "2023-09-20T22:23:01.476Z",
+        "publisher": "Global Publishers",
+        "created_at": "2023-09-20T12:29:15.355Z",
+        "updated_at": "2023-09-20T13:38:33.648Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "a3c7354e-4a25-4cd4-83e6-d6ae1d5b2805",
+        "title": "History of World Civilizations",
+        "subject": "History",
+        "grade_level": 54063,
+        "publication_year": "2023-09-21T01:26:12.663Z",
+        "publisher": "Educational Resources",
+        "created_at": "2023-09-20T22:01:43.968Z",
+        "updated_at": "2023-09-20T16:53:16.318Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "2c824701-3973-4e1c-8122-9e62bb9bdb90",
+        "start_time": "2023-09-20T14:02:14.712Z",
+        "end_time": "2023-09-21T05:57:11.369Z",
+        "created_at": "2023-09-20T15:12:33.176Z",
+        "updated_at": "2023-09-21T01:01:26.545Z",
+        "textbook_id": "88329dc4-b926-4316-873d-f8ea3f06e262",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbf8535b-c5cd-4f15-99ac-803c3c0a1556",
+        "start_time": "2023-09-20T23:24:17.983Z",
+        "end_time": "2023-09-21T00:16:17.157Z",
+        "created_at": "2023-09-21T01:28:47.389Z",
+        "updated_at": "2023-09-21T07:57:59.424Z",
+        "textbook_id": "3a57ab61-ffb7-4ae7-8125-5d247f679204",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d581a3cb-b08e-4b35-b2de-2886d006ecc6",
+        "start_time": "2023-09-20T09:14:35.012Z",
+        "end_time": "2023-09-21T05:25:14.831Z",
+        "created_at": "2023-09-20T11:34:13.546Z",
+        "updated_at": "2023-09-20T21:34:11.993Z",
+        "textbook_id": "a3c7354e-4a25-4cd4-83e6-d6ae1d5b2805",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2dc9023-b76a-4b76-a6ab-4a11c4c0de8f",
+        "start_time": "2023-09-20T19:50:39.453Z",
+        "end_time": "2023-09-20T18:32:20.821Z",
+        "created_at": "2023-09-21T04:49:36.480Z",
+        "updated_at": "2023-09-21T03:39:15.807Z",
+        "textbook_id": "3a57ab61-ffb7-4ae7-8125-5d247f679204",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ad8cedb-1fb4-4581-beff-d6b628b5a07e",
+        "start_time": "2023-09-20T09:54:05.586Z",
+        "end_time": "2023-09-20T14:59:27.691Z",
+        "created_at": "2023-09-20T21:49:58.764Z",
+        "updated_at": "2023-09-20T10:00:33.775Z",
+        "textbook_id": "3a57ab61-ffb7-4ae7-8125-5d247f679204",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "ad48bc70-dbc5-47fb-aafb-8f31986a6c77",
+        "title": "Chapter 1: Introduction",
+        "number": 67481,
+        "page_start": 14199,
+        "page_end": 91258,
+        "created_at": "2023-09-21T03:47:12.801Z",
+        "updated_at": "2023-09-20T11:43:12.380Z",
+        "textbook_id": "88329dc4-b926-4316-873d-f8ea3f06e262"
+      },
+      {
+        "id": "4898f79e-0e05-495c-80bf-f404de8a2685",
+        "title": "Chapter 2: Theoretical Framework",
+        "number": 31598,
+        "page_start": 86899,
+        "page_end": 29543,
+        "created_at": "2023-09-20T09:43:06.805Z",
+        "updated_at": "2023-09-21T03:38:28.751Z",
+        "textbook_id": "0051ff0e-5fb8-4617-8e7d-142d451ff7b7"
+      },
+      {
+        "id": "269795f0-812c-47ea-98d0-fcf13348367f",
+        "title": "Chapter 3: Methodology",
+        "number": 29171,
+        "page_start": 35468,
+        "page_end": 13080,
+        "created_at": "2023-09-21T03:29:07.940Z",
+        "updated_at": "2023-09-20T13:08:46.058Z",
+        "textbook_id": "f97895af-91b3-483c-a2fc-34bf6fc6e401"
+      },
+      {
+        "id": "75685dc1-0f64-40f2-9bec-3c8f9a9e58d1",
+        "title": "Chapter 4: Results and Analysis",
+        "number": 91431,
+        "page_start": 51509,
+        "page_end": 8012,
+        "created_at": "2023-09-21T07:44:49.287Z",
+        "updated_at": "2023-09-20T09:45:41.191Z",
+        "textbook_id": "a3c7354e-4a25-4cd4-83e6-d6ae1d5b2805"
+      },
+      {
+        "id": "250a3ece-2a2e-4b54-b4ce-e1e729e65c0e",
+        "title": "Chapter 5: Conclusion",
+        "number": 31686,
+        "page_start": 93103,
+        "page_end": 91028,
+        "created_at": "2023-09-20T09:24:53.752Z",
+        "updated_at": "2023-09-20T13:28:50.325Z",
+        "textbook_id": "f97895af-91b3-483c-a2fc-34bf6fc6e401"
+      }
+    ],
+    "question": [
+      {
+        "id": "26005340-fd31-43a9-a496-ed935f63443c",
+        "content": "What is the capital of France?",
+        "difficulty_level": 15120,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-21T00:44:38.403Z",
+        "updated_at": "2023-09-20T08:53:13.726Z",
+        "chapter_id": "4898f79e-0e05-495c-80bf-f404de8a2685"
+      },
+      {
+        "id": "8b0d2e15-d5c8-4e0f-982f-d5770b9815ec",
+        "content": "Solve the equation x^2 + 5x - 6 = 0",
+        "difficulty_level": 16650,
+        "question_type": "Fill in the Blank",
+        "answer": "x = 1, x = -6",
+        "created_at": "2023-09-20T12:59:37.001Z",
+        "updated_at": "2023-09-21T04:12:04.909Z",
+        "chapter_id": "250a3ece-2a2e-4b54-b4ce-e1e729e65c0e"
+      },
+      {
+        "id": "adb36cc7-7d13-41db-a037-c63a286fbd0f",
+        "content": "Explain the process of photosynthesis",
+        "difficulty_level": 53161,
+        "question_type": "Essay",
+        "answer": "Photosynthesis is the process by which plants convert sunlight into energy",
+        "created_at": "2023-09-20T15:07:56.733Z",
+        "updated_at": "2023-09-20T11:15:43.141Z",
+        "chapter_id": "75685dc1-0f64-40f2-9bec-3c8f9a9e58d1"
+      },
+      {
+        "id": "3bbc397f-07d7-4bc8-862c-950c99dd2b90",
+        "content": "Who discovered the theory of relativity?",
+        "difficulty_level": 85234,
+        "question_type": "True or False",
+        "answer": "Albert Einstein",
+        "created_at": "2023-09-20T11:59:42.428Z",
+        "updated_at": "2023-09-20T18:00:17.245Z",
+        "chapter_id": "250a3ece-2a2e-4b54-b4ce-e1e729e65c0e"
+      },
+      {
+        "id": "170e3ca8-e891-4e87-93b4-473e54dda619",
+        "content": "Compare and contrast democracy and dictatorship",
+        "difficulty_level": 73646,
+        "question_type": "Short Answer",
+        "answer": "Democracy is a system of government by the whole population, typically through elected representatives, while dictatorship is a form of government where absolute power is concentrated in a single person or a small group",
+        "created_at": "2023-09-20T21:36:57.127Z",
+        "updated_at": "2023-09-20T10:35:03.718Z",
+        "chapter_id": "75685dc1-0f64-40f2-9bec-3c8f9a9e58d1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2fa4ecbe-36f1-476e-931b-19e69d43b996",
+        "email": "Daron.Ledner@roq.tech",
+        "firstName": "Ubaldo",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1161.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a2be5a3-020f-4484-967e-96b50abdffb6",
+        "email": "Royce_Turner@roq.tech",
+        "firstName": "Kacie",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/776.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "679d4fcd-1de5-4577-bacd-c9ef6e92c572",
+        "email": "Aimee_Hills@roq.tech",
+        "firstName": "Audra",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43113765",
+        "tenantId": null
+      },
+      {
+        "reference": "cc05023d-7374-4109-86a1-a7f0d76fb938",
+        "email": "Jedediah.Hirthe1@roq.tech",
+        "firstName": "Zita",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34233768",
+        "tenantId": null
+      },
+      {
+        "reference": "2af83be2-acf1-45a9-9b37-b93dfa4c12b3",
+        "email": "Gerhard_Gottlieb92@roq.tech",
+        "firstName": "Adrienne",
+        "lastName": "Cummerata-Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4729883",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "831c8392-e960-4b48-bbb7-4afbdddb5696",
+        "title": "Introduction to Biology",
+        "subject": "Biology",
+        "grade_level": 62450,
+        "publication_year": "2023-09-21T04:21:42.998Z",
+        "publisher": "ABC Publications",
+        "created_at": "2023-09-20T12:35:27.081Z",
+        "updated_at": "2023-09-20T19:20:21.282Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9872b162-97e3-4a1a-839c-4fcae59645be",
+        "title": "History Through the Ages",
+        "subject": "History",
+        "grade_level": 81820,
+        "publication_year": "2023-09-21T03:32:50.231Z",
+        "publisher": "XYZ Books",
+        "created_at": "2023-09-21T01:21:43.482Z",
+        "updated_at": "2023-09-20T22:41:45.091Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "f5605062-2386-4f1b-81ff-cd12151c07db",
+        "title": "Chemistry Essentials",
+        "subject": "Chemistry",
+        "grade_level": 81152,
+        "publication_year": "2023-09-20T17:49:31.636Z",
+        "publisher": "Education Press",
+        "created_at": "2023-09-21T07:05:05.612Z",
+        "updated_at": "2023-09-20T12:45:10.595Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "e13ebd86-7899-4ab2-9ccd-452dc9f86166",
+        "title": "Literature Classics",
+        "subject": "Literature",
+        "grade_level": 74505,
+        "publication_year": "2023-09-21T01:34:28.115Z",
+        "publisher": "Global Publishing",
+        "created_at": "2023-09-20T12:23:13.128Z",
+        "updated_at": "2023-09-21T02:03:12.720Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0254c4bd-672d-4e6b-807e-4b1de9a7a04a",
+        "title": "Physics for Beginners",
+        "subject": "Physics",
+        "grade_level": 52774,
+        "publication_year": "2023-09-20T18:53:15.842Z",
+        "publisher": "Academic Resources",
+        "created_at": "2023-09-21T07:36:31.376Z",
+        "updated_at": "2023-09-20T20:23:19.839Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "2635fa73-f5dd-4aff-b851-bb62c62e7f32",
+        "start_time": "2023-09-20T11:28:25.756Z",
+        "end_time": "2023-09-21T05:44:31.738Z",
+        "created_at": "2023-09-20T15:54:46.880Z",
+        "updated_at": "2023-09-21T04:18:19.179Z",
+        "textbook_id": "f5605062-2386-4f1b-81ff-cd12151c07db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa34d6a5-4666-4c3f-8cd6-1d0ad1fe7feb",
+        "start_time": "2023-09-20T23:29:08.801Z",
+        "end_time": "2023-09-20T18:12:42.394Z",
+        "created_at": "2023-09-20T23:56:06.770Z",
+        "updated_at": "2023-09-20T21:08:41.756Z",
+        "textbook_id": "e13ebd86-7899-4ab2-9ccd-452dc9f86166",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cf4ab0b-43df-4d54-a515-8122cb12145c",
+        "start_time": "2023-09-21T01:33:00.072Z",
+        "end_time": "2023-09-20T22:26:57.713Z",
+        "created_at": "2023-09-20T23:40:13.305Z",
+        "updated_at": "2023-09-21T03:19:21.130Z",
+        "textbook_id": "831c8392-e960-4b48-bbb7-4afbdddb5696",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "160e70d9-5a3c-47c7-8589-73badd880c3f",
+        "start_time": "2023-09-21T04:08:46.449Z",
+        "end_time": "2023-09-20T13:43:19.724Z",
+        "created_at": "2023-09-21T04:37:00.866Z",
+        "updated_at": "2023-09-20T14:11:55.969Z",
+        "textbook_id": "f5605062-2386-4f1b-81ff-cd12151c07db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b45a005-ec71-424a-a56a-ebcc5c2233f6",
+        "start_time": "2023-09-20T17:21:14.244Z",
+        "end_time": "2023-09-20T18:24:51.201Z",
+        "created_at": "2023-09-20T21:20:20.804Z",
+        "updated_at": "2023-09-21T04:18:08.091Z",
+        "textbook_id": "831c8392-e960-4b48-bbb7-4afbdddb5696",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "8cdb43db-e601-427b-90eb-59ead863f1e2",
+        "title": "Cell Structure",
+        "number": 15065,
+        "page_start": 55701,
+        "page_end": 99931,
+        "created_at": "2023-09-20T21:36:34.326Z",
+        "updated_at": "2023-09-20T16:53:40.532Z",
+        "textbook_id": "f5605062-2386-4f1b-81ff-cd12151c07db"
+      },
+      {
+        "id": "f564a452-ae5d-424c-ab6d-7603891b5b7e",
+        "title": "The Renaissance",
+        "number": 45042,
+        "page_start": 5260,
+        "page_end": 19160,
+        "created_at": "2023-09-20T22:38:12.662Z",
+        "updated_at": "2023-09-20T10:00:16.692Z",
+        "textbook_id": "0254c4bd-672d-4e6b-807e-4b1de9a7a04a"
+      },
+      {
+        "id": "bf4f1212-b6cc-4fd7-99f6-97d6ec582355",
+        "title": "Chemical Reactions",
+        "number": 96461,
+        "page_start": 39048,
+        "page_end": 43608,
+        "created_at": "2023-09-20T12:12:54.264Z",
+        "updated_at": "2023-09-21T02:54:23.138Z",
+        "textbook_id": "e13ebd86-7899-4ab2-9ccd-452dc9f86166"
+      },
+      {
+        "id": "d42b2d7d-55dc-458b-a345-998cbafb26ba",
+        "title": "Shakespearean Sonnets",
+        "number": 30302,
+        "page_start": 36334,
+        "page_end": 5582,
+        "created_at": "2023-09-20T21:57:54.132Z",
+        "updated_at": "2023-09-21T06:41:05.042Z",
+        "textbook_id": "831c8392-e960-4b48-bbb7-4afbdddb5696"
+      },
+      {
+        "id": "748f3137-f171-42fe-b3c9-71e8a1537083",
+        "title": "Newton's Laws of Motion",
+        "number": 67191,
+        "page_start": 14550,
+        "page_end": 15175,
+        "created_at": "2023-09-20T21:57:56.573Z",
+        "updated_at": "2023-09-20T09:28:32.724Z",
+        "textbook_id": "f5605062-2386-4f1b-81ff-cd12151c07db"
+      }
+    ],
+    "question": [
+      {
+        "id": "204453f1-73fa-4d80-aedf-30e79e38b8ed",
+        "content": "What is the capital of France?",
+        "difficulty_level": 17933,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-20T11:46:07.245Z",
+        "updated_at": "2023-09-20T20:18:28.805Z",
+        "chapter_id": "d42b2d7d-55dc-458b-a345-998cbafb26ba"
+      },
+      {
+        "id": "75cdca55-c5d6-4b89-b3fe-4a767ca33ff6",
+        "content": "Explain the concept of natural selection.",
+        "difficulty_level": 70353,
+        "question_type": "Short Answer",
+        "answer": "Survival of the fittest",
+        "created_at": "2023-09-20T14:25:01.423Z",
+        "updated_at": "2023-09-20T13:41:23.167Z",
+        "chapter_id": "8cdb43db-e601-427b-90eb-59ead863f1e2"
+      },
+      {
+        "id": "9ba794bc-d4f0-4327-aeed-d399c8210937",
+        "content": "Solve the equation x^2 + 5x - 6 = 0.",
+        "difficulty_level": 64751,
+        "question_type": "True or False",
+        "answer": "x = -6 or x = 1",
+        "created_at": "2023-09-20T12:29:29.480Z",
+        "updated_at": "2023-09-20T15:55:02.091Z",
+        "chapter_id": "f564a452-ae5d-424c-ab6d-7603891b5b7e"
+      },
+      {
+        "id": "4a7bd2cd-e6b0-45fa-9e68-bcac8205a081",
+        "content": "Analyze the symbolism in the novel.",
+        "difficulty_level": 48662,
+        "question_type": "Essay",
+        "answer": "The green light represents hope",
+        "created_at": "2023-09-20T13:56:32.771Z",
+        "updated_at": "2023-09-21T00:00:38.471Z",
+        "chapter_id": "8cdb43db-e601-427b-90eb-59ead863f1e2"
+      },
+      {
+        "id": "e172ac73-933c-4713-b2b3-4344d7256a4d",
+        "content": "Calculate the velocity of an object.",
+        "difficulty_level": 24950,
+        "question_type": "Fill in the Blank",
+        "answer": "10 m/s",
+        "created_at": "2023-09-21T02:16:37.213Z",
+        "updated_at": "2023-09-21T05:11:43.061Z",
+        "chapter_id": "d42b2d7d-55dc-458b-a345-998cbafb26ba"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b9fdd4b0-a779-4dbc-bcd8-caae029ee381",
+        "email": "Merlin.Beahan85@roq.tech",
+        "firstName": "Marty",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96599750",
+        "tenantId": null
+      },
+      {
+        "reference": "32fcda70-f167-4b6d-99cb-2c28b7c71dd5",
+        "email": "Garry_Medhurst@roq.tech",
+        "firstName": "Milan",
+        "lastName": "Batz-Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81932825",
+        "tenantId": null
+      },
+      {
+        "reference": "13a59ae5-467b-4874-8ede-3b0743794818",
+        "email": "Reyes.Schmeler21@roq.tech",
+        "firstName": "Karlee",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/856.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "599a756e-de9b-4514-8a7b-06c54f941e1d",
+        "email": "Guillermo_Shields@roq.tech",
+        "firstName": "Dorian",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "847a26ad-7228-4809-a53f-5c1862e37011",
+        "email": "Francisco83@roq.tech",
+        "firstName": "Mable",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97792713",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "304071dc-3d20-4340-8bd3-f22fa8f9ced7",
+        "title": "Introduction to Biology",
+        "subject": "Biology",
+        "grade_level": 91061,
+        "publication_year": "2023-09-21T04:22:29.538Z",
+        "publisher": "Pearson",
+        "created_at": "2023-09-20T13:46:06.724Z",
+        "updated_at": "2023-09-20T23:52:57.715Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "db613436-b3cf-467d-b487-2bff1941e452",
+        "title": "Mathematics for Beginners",
+        "subject": "Mathematics",
+        "grade_level": 78786,
+        "publication_year": "2023-09-20T10:31:41.843Z",
+        "publisher": "McGraw-Hill",
+        "created_at": "2023-09-20T12:20:23.698Z",
+        "updated_at": "2023-09-20T17:54:21.881Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "c0fc8916-ce0e-45d3-9a00-6387555ce764",
+        "title": "History of World War II",
+        "subject": "History",
+        "grade_level": 71204,
+        "publication_year": "2023-09-20T09:49:45.656Z",
+        "publisher": "Oxford University Press",
+        "created_at": "2023-09-21T07:23:33.367Z",
+        "updated_at": "2023-09-21T02:08:51.823Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "12c30e48-fee6-434b-bbab-f54fe4a4649a",
+        "title": "English Grammar Essentials",
+        "subject": "English",
+        "grade_level": 4173,
+        "publication_year": "2023-09-20T10:54:43.192Z",
+        "publisher": "Cambridge University Press",
+        "created_at": "2023-09-21T06:41:19.830Z",
+        "updated_at": "2023-09-20T19:15:46.914Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "90e7d4b8-ac46-414e-b93e-a8eb2433ce2b",
+        "title": "Chemistry: A Practical Approach",
+        "subject": "Chemistry",
+        "grade_level": 82649,
+        "publication_year": "2023-09-20T21:06:07.256Z",
+        "publisher": "Houghton Mifflin Harcourt",
+        "created_at": "2023-09-21T05:52:04.116Z",
+        "updated_at": "2023-09-20T17:16:18.799Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "43246f8c-fe40-483e-8915-9b1fb4a3cdfb",
+        "start_time": "2023-09-20T23:38:19.573Z",
+        "end_time": "2023-09-21T02:58:55.141Z",
+        "created_at": "2023-09-21T07:22:00.293Z",
+        "updated_at": "2023-09-20T13:53:47.929Z",
+        "textbook_id": "304071dc-3d20-4340-8bd3-f22fa8f9ced7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7228d0b-1803-4f86-9e0b-7897e0591009",
+        "start_time": "2023-09-21T02:46:09.635Z",
+        "end_time": "2023-09-20T21:43:51.630Z",
+        "created_at": "2023-09-20T11:23:12.408Z",
+        "updated_at": "2023-09-20T10:52:29.580Z",
+        "textbook_id": "90e7d4b8-ac46-414e-b93e-a8eb2433ce2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f5d7673-7e4c-4d77-9270-31070c92d52e",
+        "start_time": "2023-09-20T11:51:41.839Z",
+        "end_time": "2023-09-20T17:53:13.191Z",
+        "created_at": "2023-09-20T21:38:43.515Z",
+        "updated_at": "2023-09-21T01:01:13.797Z",
+        "textbook_id": "304071dc-3d20-4340-8bd3-f22fa8f9ced7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4db2e1e-575a-4059-b948-ee707aac55b7",
+        "start_time": "2023-09-21T02:50:22.204Z",
+        "end_time": "2023-09-20T12:14:13.205Z",
+        "created_at": "2023-09-20T15:09:59.378Z",
+        "updated_at": "2023-09-21T04:39:34.251Z",
+        "textbook_id": "db613436-b3cf-467d-b487-2bff1941e452",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67e3234c-af61-45c2-8e73-1e4c3a656c42",
+        "start_time": "2023-09-20T21:12:05.948Z",
+        "end_time": "2023-09-20T10:40:26.548Z",
+        "created_at": "2023-09-20T16:47:00.651Z",
+        "updated_at": "2023-09-20T15:29:56.375Z",
+        "textbook_id": "c0fc8916-ce0e-45d3-9a00-6387555ce764",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "4c7707d8-8063-4d1d-aeb8-737bbb2d967f",
+        "title": "Cell Structure",
+        "number": 77125,
+        "page_start": 60112,
+        "page_end": 36664,
+        "created_at": "2023-09-20T23:59:02.027Z",
+        "updated_at": "2023-09-20T11:33:18.175Z",
+        "textbook_id": "304071dc-3d20-4340-8bd3-f22fa8f9ced7"
+      },
+      {
+        "id": "ec04b613-1925-4874-b7e8-d8245bfee424",
+        "title": "Algebraic Equations",
+        "number": 28413,
+        "page_start": 70359,
+        "page_end": 38403,
+        "created_at": "2023-09-21T00:47:54.288Z",
+        "updated_at": "2023-09-21T04:58:31.692Z",
+        "textbook_id": "db613436-b3cf-467d-b487-2bff1941e452"
+      },
+      {
+        "id": "fd43410b-61f2-4d69-8ca5-8433b0aadfd2",
+        "title": "Causes of the War",
+        "number": 77722,
+        "page_start": 75635,
+        "page_end": 11870,
+        "created_at": "2023-09-20T21:42:45.715Z",
+        "updated_at": "2023-09-20T20:10:09.198Z",
+        "textbook_id": "90e7d4b8-ac46-414e-b93e-a8eb2433ce2b"
+      },
+      {
+        "id": "b8f3b222-052d-452a-adcf-2e2e4680c701",
+        "title": "Parts of Speech",
+        "number": 71117,
+        "page_start": 17096,
+        "page_end": 1232,
+        "created_at": "2023-09-21T02:47:37.717Z",
+        "updated_at": "2023-09-20T12:23:53.756Z",
+        "textbook_id": "304071dc-3d20-4340-8bd3-f22fa8f9ced7"
+      },
+      {
+        "id": "0c5d886b-e044-4254-a459-92ce6fb6bcc8",
+        "title": "Chemical Reactions",
+        "number": 89926,
+        "page_start": 35633,
+        "page_end": 39278,
+        "created_at": "2023-09-21T03:57:10.148Z",
+        "updated_at": "2023-09-20T13:58:27.406Z",
+        "textbook_id": "304071dc-3d20-4340-8bd3-f22fa8f9ced7"
+      }
+    ],
+    "question": [
+      {
+        "id": "a5901e29-86c3-4a1d-816b-db3d632fd794",
+        "content": "What is the capital of France?",
+        "difficulty_level": 81846,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-20T14:08:40.026Z",
+        "updated_at": "2023-09-20T11:21:07.477Z",
+        "chapter_id": "0c5d886b-e044-4254-a459-92ce6fb6bcc8"
+      },
+      {
+        "id": "732860de-a1da-4464-94bc-363e546e1a47",
+        "content": "Solve the equation x^2 + 3x - 4 = 0.",
+        "difficulty_level": 83855,
+        "question_type": "Fill in the Blank",
+        "answer": "x = 1 or x = -4",
+        "created_at": "2023-09-20T15:14:59.084Z",
+        "updated_at": "2023-09-20T17:31:13.694Z",
+        "chapter_id": "b8f3b222-052d-452a-adcf-2e2e4680c701"
+      },
+      {
+        "id": "b56e67fc-c427-4bc2-9279-562a4b468ea5",
+        "content": "Who was the first president of the United States?",
+        "difficulty_level": 59463,
+        "question_type": "True or False",
+        "answer": "George Washington",
+        "created_at": "2023-09-20T20:18:54.622Z",
+        "updated_at": "2023-09-20T09:51:16.318Z",
+        "chapter_id": "4c7707d8-8063-4d1d-aeb8-737bbb2d967f"
+      },
+      {
+        "id": "bc3981ef-2d77-4ab9-a580-48389b4ef4b3",
+        "content": "Identify the verb in the sentence: She is running.",
+        "difficulty_level": 87064,
+        "question_type": "Short Answer",
+        "answer": "running",
+        "created_at": "2023-09-20T09:38:30.451Z",
+        "updated_at": "2023-09-21T02:45:54.943Z",
+        "chapter_id": "fd43410b-61f2-4d69-8ca5-8433b0aadfd2"
+      },
+      {
+        "id": "b3139daa-19db-4983-89b2-f4858f2c2254",
+        "content": "Balance the chemical equation: H2 + O2 -> H2O.",
+        "difficulty_level": 40719,
+        "question_type": "Matching",
+        "answer": "2H2 + O2 -> 2H2O",
+        "created_at": "2023-09-20T13:57:32.909Z",
+        "updated_at": "2023-09-21T08:19:44.812Z",
+        "chapter_id": "0c5d886b-e044-4254-a459-92ce6fb6bcc8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "42ee751b-159f-455a-bdf9-4ab495b99403",
+        "email": "Jordi54@roq.tech",
+        "firstName": "Rickie",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3145841",
+        "tenantId": null
+      },
+      {
+        "reference": "d8d182f0-4435-4e90-ae0d-b0c8a9239db5",
+        "email": "Gene.Brakus@roq.tech",
+        "firstName": "Zetta",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/560.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c2edf23-00c3-43f2-ae08-66dcdcc1163b",
+        "email": "Gretchen95@roq.tech",
+        "firstName": "Danielle",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/584.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b37a534a-12e4-474b-8a72-3db8153955d2",
+        "email": "Reymundo27@roq.tech",
+        "firstName": "Marcelo",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79311887",
+        "tenantId": null
+      },
+      {
+        "reference": "1b72bbbd-c7e9-4b27-96df-fb15bbeb2c0b",
+        "email": "Abel_Wolff@roq.tech",
+        "firstName": "Elvera",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31524272",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "4a1a0593-4bf5-49a7-996a-37656209eae9",
+        "title": "Introduction to Physics",
+        "subject": "Physics",
+        "grade_level": 29136,
+        "publication_year": "2023-09-20T19:28:22.835Z",
+        "publisher": "Publisher A",
+        "created_at": "2023-09-21T01:28:48.486Z",
+        "updated_at": "2023-09-20T10:29:31.600Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "72338598-789b-4b21-aaca-b7456fbda42a",
+        "title": "Mathematics for Beginners",
+        "subject": "Mathematics",
+        "grade_level": 97305,
+        "publication_year": "2023-09-20T14:52:34.379Z",
+        "publisher": "Publisher B",
+        "created_at": "2023-09-20T20:47:21.389Z",
+        "updated_at": "2023-09-20T10:25:54.526Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "ba45ca9d-6d69-47d2-9b04-afdb9c8c1cec",
+        "title": "History of World War II",
+        "subject": "History",
+        "grade_level": 49469,
+        "publication_year": "2023-09-20T11:50:55.354Z",
+        "publisher": "Publisher C",
+        "created_at": "2023-09-20T16:36:40.994Z",
+        "updated_at": "2023-09-20T13:01:32.242Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "0a4f1e6f-be5f-46ec-b6e5-bbf11ec19256",
+        "title": "English Grammar Essentials",
+        "subject": "English",
+        "grade_level": 21535,
+        "publication_year": "2023-09-21T07:18:02.427Z",
+        "publisher": "Publisher D",
+        "created_at": "2023-09-20T18:16:27.128Z",
+        "updated_at": "2023-09-20T10:14:08.151Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "9fdb49a0-d867-4859-9b55-636c4bc8c9e4",
+        "title": "Chemistry: A Practical Approach",
+        "subject": "Chemistry",
+        "grade_level": 73659,
+        "publication_year": "2023-09-20T19:15:33.661Z",
+        "publisher": "Publisher E",
+        "created_at": "2023-09-20T19:23:59.495Z",
+        "updated_at": "2023-09-20T16:22:37.772Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "fd0f7e43-437a-402d-bb5b-7d430b7206c2",
+        "start_time": "2023-09-20T09:27:44.929Z",
+        "end_time": "2023-09-21T06:10:41.121Z",
+        "created_at": "2023-09-20T20:48:57.217Z",
+        "updated_at": "2023-09-21T04:46:28.810Z",
+        "textbook_id": "0a4f1e6f-be5f-46ec-b6e5-bbf11ec19256",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c6f6c19-b3ec-4116-a41e-7239a82c5598",
+        "start_time": "2023-09-20T19:19:40.317Z",
+        "end_time": "2023-09-21T08:40:59.134Z",
+        "created_at": "2023-09-21T00:32:42.412Z",
+        "updated_at": "2023-09-20T10:04:01.402Z",
+        "textbook_id": "9fdb49a0-d867-4859-9b55-636c4bc8c9e4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e663f6a-ce4a-4f17-ada1-6002cf42d36b",
+        "start_time": "2023-09-20T19:50:00.984Z",
+        "end_time": "2023-09-20T21:59:22.970Z",
+        "created_at": "2023-09-20T11:58:09.289Z",
+        "updated_at": "2023-09-21T05:12:53.136Z",
+        "textbook_id": "9fdb49a0-d867-4859-9b55-636c4bc8c9e4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ae99e26-834b-4d1a-b22c-81a2af346203",
+        "start_time": "2023-09-20T12:55:28.625Z",
+        "end_time": "2023-09-20T10:45:13.410Z",
+        "created_at": "2023-09-21T01:23:13.456Z",
+        "updated_at": "2023-09-21T02:08:28.353Z",
+        "textbook_id": "72338598-789b-4b21-aaca-b7456fbda42a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "676a42e1-a0dc-4544-bde6-6086f9eae9fd",
+        "start_time": "2023-09-20T11:07:42.606Z",
+        "end_time": "2023-09-20T20:46:39.661Z",
+        "created_at": "2023-09-21T02:09:03.034Z",
+        "updated_at": "2023-09-20T23:49:01.163Z",
+        "textbook_id": "ba45ca9d-6d69-47d2-9b04-afdb9c8c1cec",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "41eb4d43-3c5c-45ca-a8ea-7c2f8fca2b87",
+        "title": "Chapter 1: Introduction",
+        "number": 69374,
+        "page_start": 98327,
+        "page_end": 37606,
+        "created_at": "2023-09-20T17:27:22.309Z",
+        "updated_at": "2023-09-21T06:51:23.991Z",
+        "textbook_id": "0a4f1e6f-be5f-46ec-b6e5-bbf11ec19256"
+      },
+      {
+        "id": "2e7356bb-c1ee-4a64-b71e-a0313eb793f9",
+        "title": "Chapter 2: Basic Concepts",
+        "number": 81709,
+        "page_start": 89890,
+        "page_end": 87664,
+        "created_at": "2023-09-20T17:09:06.222Z",
+        "updated_at": "2023-09-20T16:18:19.306Z",
+        "textbook_id": "ba45ca9d-6d69-47d2-9b04-afdb9c8c1cec"
+      },
+      {
+        "id": "0b07380a-cf2d-4a77-b267-4abf63bd4b3e",
+        "title": "Chapter 3: Advanced Topics",
+        "number": 27379,
+        "page_start": 55892,
+        "page_end": 32089,
+        "created_at": "2023-09-20T10:46:56.338Z",
+        "updated_at": "2023-09-21T03:19:16.405Z",
+        "textbook_id": "0a4f1e6f-be5f-46ec-b6e5-bbf11ec19256"
+      },
+      {
+        "id": "c821e1d4-7b4c-4176-a35c-c4df1102af8f",
+        "title": "Chapter 4: Case Studies",
+        "number": 6651,
+        "page_start": 91659,
+        "page_end": 65854,
+        "created_at": "2023-09-21T01:04:01.821Z",
+        "updated_at": "2023-09-20T13:04:48.590Z",
+        "textbook_id": "ba45ca9d-6d69-47d2-9b04-afdb9c8c1cec"
+      },
+      {
+        "id": "f21dac82-ccaa-4f4c-887a-4b0adf1ce224",
+        "title": "Chapter 5: Conclusion",
+        "number": 84574,
+        "page_start": 82994,
+        "page_end": 5217,
+        "created_at": "2023-09-21T06:22:24.800Z",
+        "updated_at": "2023-09-21T01:31:47.875Z",
+        "textbook_id": "4a1a0593-4bf5-49a7-996a-37656209eae9"
+      }
+    ],
+    "question": [
+      {
+        "id": "f8dd9844-4113-45df-be21-6cdcacb05ef1",
+        "content": "What is the capital of France?",
+        "difficulty_level": 54199,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-21T07:13:17.456Z",
+        "updated_at": "2023-09-20T17:59:05.755Z",
+        "chapter_id": "f21dac82-ccaa-4f4c-887a-4b0adf1ce224"
+      },
+      {
+        "id": "9e502ba9-89fa-4e6e-a8c5-5242a87206a6",
+        "content": "Solve the equation: 2x + 5 = 15",
+        "difficulty_level": 99052,
+        "question_type": "Fill in the Blank",
+        "answer": "x = 5",
+        "created_at": "2023-09-20T11:29:22.607Z",
+        "updated_at": "2023-09-21T02:17:00.724Z",
+        "chapter_id": "c821e1d4-7b4c-4176-a35c-c4df1102af8f"
+      },
+      {
+        "id": "1a3bfee7-dcfa-4313-b15f-50d81fdda1c3",
+        "content": "Describe the causes of World War II.",
+        "difficulty_level": 47153,
+        "question_type": "Short Answer",
+        "answer": "The main causes of World War II were...",
+        "created_at": "2023-09-21T08:14:52.705Z",
+        "updated_at": "2023-09-21T01:00:13.718Z",
+        "chapter_id": "0b07380a-cf2d-4a77-b267-4abf63bd4b3e"
+      },
+      {
+        "id": "d59b457c-6ff8-4a40-a4b2-f0ff0502f210",
+        "content": "Identify the verb in the sentence: She sings beautifully.",
+        "difficulty_level": 79047,
+        "question_type": "True or False",
+        "answer": "sings",
+        "created_at": "2023-09-21T07:51:28.941Z",
+        "updated_at": "2023-09-20T19:51:52.463Z",
+        "chapter_id": "f21dac82-ccaa-4f4c-887a-4b0adf1ce224"
+      },
+      {
+        "id": "1b6fe847-ad83-483d-9fe0-332b6fdc7dc6",
+        "content": "Balance the following chemical equation: H2 + O2 → H2O",
+        "difficulty_level": 52609,
+        "question_type": "Matching",
+        "answer": "2H2 + O2 → 2H2O",
+        "created_at": "2023-09-20T22:49:24.558Z",
+        "updated_at": "2023-09-20T16:47:50.773Z",
+        "chapter_id": "2e7356bb-c1ee-4a64-b71e-a0313eb793f9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7dc94f05-685f-4976-9d6d-6adc644c8f09",
+        "email": "Modesto.Ferry59@roq.tech",
+        "firstName": "Olin",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61293181",
+        "tenantId": null
+      },
+      {
+        "reference": "65df071e-578f-4999-b40c-d79400014ce4",
+        "email": "Euna.Rutherford43@roq.tech",
+        "firstName": "Beaulah",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a6427cb-91af-44b2-b28c-9f0844760c2e",
+        "email": "Isac_Hoeger@roq.tech",
+        "firstName": "Mariam",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/505.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb6b5080-f818-49ff-9543-7ced8f57c56d",
+        "email": "Arch89@roq.tech",
+        "firstName": "Israel",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37709228",
+        "tenantId": null
+      },
+      {
+        "reference": "c2d0191c-1412-4243-a44c-6af8ab988abc",
+        "email": "Dan_Stark@roq.tech",
+        "firstName": "Leonor",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1004.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "textbook": [
+      {
+        "id": "d3396f72-694d-4c87-bf1d-b7e5cf0d5840",
+        "title": "Introduction to Biology",
+        "subject": "Biology",
+        "grade_level": 43642,
+        "publication_year": "2023-09-20T09:56:56.552Z",
+        "publisher": "ABC Publications",
+        "created_at": "2023-09-20T18:58:47.951Z",
+        "updated_at": "2023-09-20T17:37:39.039Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "899c5da4-5c72-468d-9f10-f1889bb21e72",
+        "title": "Mathematics for Beginners",
+        "subject": "Mathematics",
+        "grade_level": 25035,
+        "publication_year": "2023-09-21T06:30:04.552Z",
+        "publisher": "XYZ Books",
+        "created_at": "2023-09-20T14:52:51.041Z",
+        "updated_at": "2023-09-20T18:59:12.968Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "49319c1c-d5c1-4dea-a06f-b4644d504b49",
+        "title": "History of World Civilizations",
+        "subject": "History",
+        "grade_level": 30535,
+        "publication_year": "2023-09-21T00:17:32.404Z",
+        "publisher": "Academic Press",
+        "created_at": "2023-09-20T09:28:29.558Z",
+        "updated_at": "2023-09-20T20:40:21.667Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "29d2889f-8ac7-43bf-8d97-068bec8c4dea",
+        "title": "English Grammar Essentials",
+        "subject": "English",
+        "grade_level": 52290,
+        "publication_year": "2023-09-20T10:26:59.266Z",
+        "publisher": "Scholastic Publishers",
+        "created_at": "2023-09-21T07:23:44.801Z",
+        "updated_at": "2023-09-20T20:52:49.206Z",
+        "provider_id": "main_entity_pk"
+      },
+      {
+        "id": "a19a2f8d-edef-48ba-8612-96f2b395d301",
+        "title": "Physics: Principles and Applications",
+        "subject": "Physics",
+        "grade_level": 21349,
+        "publication_year": "2023-09-21T06:47:03.233Z",
+        "publisher": "Pearson Education",
+        "created_at": "2023-09-20T11:17:23.235Z",
+        "updated_at": "2023-09-21T08:28:08.063Z",
+        "provider_id": "main_entity_pk"
+      }
+    ],
+    "study_session": [
+      {
+        "id": "db9be004-9e8b-4dcc-adc7-7f9a0d0f20f3",
+        "start_time": "2023-09-20T09:57:41.202Z",
+        "end_time": "2023-09-20T17:52:36.141Z",
+        "created_at": "2023-09-20T23:46:20.018Z",
+        "updated_at": "2023-09-20T23:06:43.210Z",
+        "textbook_id": "49319c1c-d5c1-4dea-a06f-b4644d504b49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e82f659-9183-4685-b51f-af490512882c",
+        "start_time": "2023-09-20T09:15:39.703Z",
+        "end_time": "2023-09-20T12:48:32.237Z",
+        "created_at": "2023-09-20T21:04:37.869Z",
+        "updated_at": "2023-09-20T16:52:02.393Z",
+        "textbook_id": "49319c1c-d5c1-4dea-a06f-b4644d504b49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3a439a4-d556-4833-888d-fc4cf30935d8",
+        "start_time": "2023-09-21T02:36:52.492Z",
+        "end_time": "2023-09-20T12:31:16.323Z",
+        "created_at": "2023-09-21T05:24:04.817Z",
+        "updated_at": "2023-09-20T21:47:41.395Z",
+        "textbook_id": "29d2889f-8ac7-43bf-8d97-068bec8c4dea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ff3e792-2a86-4ca9-af4c-0e8cfc252e1f",
+        "start_time": "2023-09-21T05:14:52.104Z",
+        "end_time": "2023-09-20T20:58:28.992Z",
+        "created_at": "2023-09-21T00:54:17.130Z",
+        "updated_at": "2023-09-20T14:36:03.272Z",
+        "textbook_id": "d3396f72-694d-4c87-bf1d-b7e5cf0d5840",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa1d5a5e-a86d-43fb-97ea-95b2c8415be4",
+        "start_time": "2023-09-20T12:18:49.852Z",
+        "end_time": "2023-09-20T17:42:17.733Z",
+        "created_at": "2023-09-20T13:20:55.744Z",
+        "updated_at": "2023-09-21T05:17:59.219Z",
+        "textbook_id": "49319c1c-d5c1-4dea-a06f-b4644d504b49",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chapter": [
+      {
+        "id": "a11ddf25-4167-4288-a9f7-ec533c8be173",
+        "title": "Cell Structure",
+        "number": 48977,
+        "page_start": 37377,
+        "page_end": 95874,
+        "created_at": "2023-09-21T00:25:19.254Z",
+        "updated_at": "2023-09-21T05:12:33.910Z",
+        "textbook_id": "49319c1c-d5c1-4dea-a06f-b4644d504b49"
+      },
+      {
+        "id": "ddd66f55-f1cd-4b10-82cb-a61eac898096",
+        "title": "Algebraic Equations",
+        "number": 81261,
+        "page_start": 60899,
+        "page_end": 33773,
+        "created_at": "2023-09-21T01:04:10.767Z",
+        "updated_at": "2023-09-21T05:58:12.192Z",
+        "textbook_id": "29d2889f-8ac7-43bf-8d97-068bec8c4dea"
+      },
+      {
+        "id": "573bbd48-bdc8-402e-b6cd-cb2e827445bb",
+        "title": "Ancient Egypt",
+        "number": 132,
+        "page_start": 56782,
+        "page_end": 78195,
+        "created_at": "2023-09-20T21:58:04.773Z",
+        "updated_at": "2023-09-21T01:26:34.659Z",
+        "textbook_id": "899c5da4-5c72-468d-9f10-f1889bb21e72"
+      },
+      {
+        "id": "339cb6c4-e09f-4b24-9c94-4ab02b147e75",
+        "title": "Verb Tenses",
+        "number": 43126,
+        "page_start": 37090,
+        "page_end": 67302,
+        "created_at": "2023-09-21T07:35:17.606Z",
+        "updated_at": "2023-09-20T18:38:02.092Z",
+        "textbook_id": "d3396f72-694d-4c87-bf1d-b7e5cf0d5840"
+      },
+      {
+        "id": "714c3b08-9ffe-4d93-b8c6-ed5d290f2a16",
+        "title": "Newton's Laws of Motion",
+        "number": 38121,
+        "page_start": 38445,
+        "page_end": 11276,
+        "created_at": "2023-09-21T00:57:06.236Z",
+        "updated_at": "2023-09-20T11:14:49.713Z",
+        "textbook_id": "49319c1c-d5c1-4dea-a06f-b4644d504b49"
+      }
+    ],
+    "question": [
+      {
+        "id": "807b2ac5-25f6-47e2-8b89-18b89d40f361",
+        "content": "What is the capital of France?",
+        "difficulty_level": 1379,
+        "question_type": "Multiple Choice",
+        "answer": "Paris",
+        "created_at": "2023-09-21T04:32:44.287Z",
+        "updated_at": "2023-09-20T12:15:13.681Z",
+        "chapter_id": "a11ddf25-4167-4288-a9f7-ec533c8be173"
+      },
+      {
+        "id": "1058c60c-2676-4b91-9a39-02293a337d2e",
+        "content": "Solve the equation: 2x + 5 = 13",
+        "difficulty_level": 69441,
+        "question_type": "Fill in the Blank",
+        "answer": "x = 4",
+        "created_at": "2023-09-20T09:16:24.069Z",
+        "updated_at": "2023-09-20T16:32:05.990Z",
+        "chapter_id": "339cb6c4-e09f-4b24-9c94-4ab02b147e75"
+      },
+      {
+        "id": "87d7b158-4254-4a60-8522-aaae5e9f5769",
+        "content": "Who invented the telephone?",
+        "difficulty_level": 94839,
+        "question_type": "True or False",
+        "answer": "Alexander Graham Bell",
+        "created_at": "2023-09-21T07:16:22.986Z",
+        "updated_at": "2023-09-20T11:02:32.284Z",
+        "chapter_id": "573bbd48-bdc8-402e-b6cd-cb2e827445bb"
+      },
+      {
+        "id": "9e9d1c81-e8fa-4f70-b324-d8a64f283d13",
+        "content": "Identify the correct verb form: She ___ to the store.",
+        "difficulty_level": 68926,
+        "question_type": "Short Answer",
+        "answer": "went",
+        "created_at": "2023-09-20T22:12:16.548Z",
+        "updated_at": "2023-09-20T17:59:56.041Z",
+        "chapter_id": "ddd66f55-f1cd-4b10-82cb-a61eac898096"
+      },
+      {
+        "id": "f32992b7-1c4b-4541-8733-423a15e22e06",
+        "content": "Explain the concept of gravity.",
+        "difficulty_level": 65898,
+        "question_type": "Matching",
+        "answer": "Gravity is the force that attracts objects towards each other.",
+        "created_at": "2023-09-21T05:01:22.599Z",
+        "updated_at": "2023-09-21T04:08:31.137Z",
+        "chapter_id": "573bbd48-bdc8-402e-b6cd-cb2e827445bb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b7b5aec8-a29b-40d0-a73f-19225970497d",
+        "email": "Eino_Lueilwitz-Hilll13@roq.tech",
+        "firstName": "Torrance",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/233.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c4173757-d03b-4903-b243-7fdd46b27965",
+        "email": "Aileen_Ankunding@roq.tech",
+        "firstName": "Kiarra",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "647ea1e0-7a68-4593-b528-668dedea377e",
+        "email": "Karlie_Strosin@roq.tech",
+        "firstName": "Braulio",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/820.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a09e015c-ef79-4f2d-acec-1e4be78108af",
+        "email": "Daron.Pfannerstill25@roq.tech",
+        "firstName": "Sadye",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35520273",
+        "tenantId": null
+      },
+      {
+        "reference": "801878ac-e948-454c-9d9f-0bb1943c398c",
+        "email": "Amira.Bernier90@roq.tech",
+        "firstName": "Lavada",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
